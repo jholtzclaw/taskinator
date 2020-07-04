@@ -204,3 +204,23 @@ footer {
 
 .select-dropdown:focus,
 .select-status:focus {
+  border-color: #aaa;
+  box-shadow: 0 0 1px 3px rgba(59, 153, 252, 0.7);
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+.select-dropdown option,
+.select-status option {
+  font-weight: normal;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 980px) {
+  form .form-group {
+    flex: 1 100%;
+  }
+
+  form .form-group button {
+    width: 100%;
+  }
